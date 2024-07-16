@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="./assets/css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header id="inicio">
+        <h1 style="color: white">Dayron<a style="color: #fe8001; font-family: comfortaa;" href="https://linkedin.com/bruno-dayron/" target="_blank">Ti</a></h1>
+
+        <nav>
+            <ul class="navegacaoPrimaria">
+                <li><a href="#inicio">início</a></li>
+                <li><a href="#resumo">resumo</a></li>
+                <li><a href="#habilidades">habilidades</a></li>
+                <li><a href="#contato">contato</a></li>
+            </ul>
+
+            <div class="mobile_menu_icon">
+                <button onclick="menuShow()" class="icon"><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </nav>
+    </header>
+
+    <div class="mobile_menu">
+        <ul class="navegacaoPrimaria2">
+            <li class="nav-item"><a href="#inicio"><i class="fa-solid fa-house"></i></a></li>
+            <li class="nav-item"><a href="#resumo"><i class="fa-solid fa-book"></i></a></li>
+            <li class="nav-item"><a href="#habilidades"><i class="fa-solid fa-code"></i></a></li>
+            <li class="nav-item"><a href="#contato"><i class="fa-solid fa-comments"></i></a></li>
+        </ul>
+    </div>
+
+    <main>
+        <section class="sessao1">
+            <div>
+                <h2 class="meuNome">Dayron Tinoco</h2>
+                <h2 class="digitando">Desenvolvedor Web</h2>
+                <p><i class="fa-solid fa-building-columns"></i> Bacharel em S.I | Técnico em Informática</p>
+                <button><a href="./assets/Documentos/CurriculoDev%20(2).pdf" target="_blank" download style="color: black; font-family: comfortaa;">Download CV</a></button>
+            </div>
+            <img id="imageminicio" src="./assets/imagens/MinhaLogo.png" alt="Uma imagem grande e muito linda minha">
+        </section>
+    
+        <article class="sobre" id="resumo">
+            <section class="sobre_titulo">
+                <h2>Quem é Dayron?</h2>
+                <p>Um entusiasta em inovações e apaixonado por tecnologia...</p>
+                <div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </section>
+            <img src="./assets/imagens/MeuRosto.png" alt="Uma foto de apresentação minha">
+            <section class="sobre_conteudo">
+                <div class="sobre_texto">
+                    <h2>Prazer, sou <span style="color: white;">Bruno Dayron!</span></h2>
+                    <p>Tenho 19 anos e moro em São Luís do Maranhão. Concluí o ensino médio e procurei seguir meu sonho na área de tecnologia. Após tentar entrar em Engenharia da Computação, optei pelo curso de Sistemas de Informação. Hoje, me considero um técnico habilidoso e um desenvolvedor ambicioso e empolgado.</p>
+                </div>
+            </section>
+        </article>
+
+        <section class="services" id="habilidades">
+            <div class="sobre_titulo">
+                <h2>Minhas Habilidades</h2>
+                <p>Mantendo minha mente focada e sempre ativa, pude me especializar em algumas tecnologias e funções.</p>
+                <div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="meuServicos">
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-scroll"></i>
+                        <h3>Dev. JavaScript</h3>
+                        <p>JavaScript intermediário com conhecimento de classes, funções, objetos e prototypes.</p>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-github"></i>
+                        <h3>GitHub</h3>
+                        <p>Conhecimento em versionamento, uso de Git em projetos pessoais e utilização constante de repositórios.</p>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-linux"></i>
+                        <h3>Linux</h3>
+                        <p>Experiência com Ubuntu 22.04, utilizando ferramentas, aplicativos e recursos.</p>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-python"></i>
+                        <h3>Dev. Python</h3>
+                        <p>Desenvolvimento de sistemas variados, conhecimento de bibliotecas, lógica, classes, entre outros.</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-tablet"></i>
+                        <h3>Design responsivo</h3>
+                        <p>Conhecimento em ferramentas que auxiliam na responsividade e portabilidade de sistemas.</p>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-react"></i>
+                        <h3>React</h3>
+                        <p>Estudando atualmente esta tecnologia após JavaScript, em busca de novos desafios.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+        <div class="my_resume">
+            <div class="sobre_titulo">
+                <h2>Meu histórico</h2>
+                <p>Sempre procuro ir fundo no que desejo aprender, buscando certificações extras e novas experiências.</p>
+                <div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="resume_generica">
+                <h2 class="experience"><i class="fa-solid fa-wrench" style="color: #fe8001;"></i>EXPERIÊNCIA</h2>
+                <div class="experience_content">
+                    <div class="ativo">
+                        <span>2023 - 2023</span>
+                        <h3>Web Desenvolvedor - Freelancer</h3>
+                        <p>Trabalhei com desenvolvimento freelancer usando ferramentas como Bubble, Figma e Google Classroom. Experiência em criação e testes de softwares e desenvolvimento responsivo.</p>
+                    </div>
+                    <div>
+                        <span>2023 - Atualmente</span>
+                        <h3>Técnico de Informática - Estágio</h3>
+                        <p>Atuei na Secretaria da Cultura do Estado do Maranhão como técnico em informática, realizando manutenção de computadores e suporte ao usuário.</p>
+                    </div>
+                    <ul>
+                        <li class="ativo"><i class="fa-solid fa-circle"></i></li>
+                        <li><i class="fa-solid fa-circle"></i></li>
+                    </ul>
+                </div>
+                <h2 class="education"><i class="fa-solid fa-graduation-cap" style="color: #fe8001;"></i>EDUCAÇÃO</h2>
+                <div class="education_content">
+                    <div class="ativo">
+                        <span>2023 - 2026</span>
+                        <h3>Sistemas de Informação - Universidade Cest</h3>
+                        <p>Meu curso atual, proporcionando um grande avanço como aluno de tecnologia.</p>
+                    </div>
+                    <div>
+                        <span>2022 - 2023</span>
+                        <h3>Informática Avançada - Técnico</h3>
+                        <p>Curso técnico onde adquiri conhecimentos em manutenção de computadores, redes, softwares e primeiros passos em softwares gráficos.</p>
+                    </div>
+                    <div>
+                        <span>2023 - Atualmente</span>
+                        <h3>Curso em Vídeo</h3>
+                        <p>Considero o Curso em Vídeo uma parte importante da minha formação em tecnologia, onde aprendi HTML, CSS, JavaScript, algoritmos, Python, entre outros.</p>
+                    </div>
+                    <ul>
+                        <li class="ativo"><i class="fa-solid fa-circle"></i></li>
+                        <li><i class="fa-solid fa-circle"></i></li>
+                        <li><i class="fa-solid fa-circle"></i></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="cursos">
+                <div class="my_skill">
+                    <h2><i class="fa-sharp fa-solid fa-star"></i>HABILIDADES +</h2>
+                    <div class="skill_content">
+                        <h3>HTML5</h3>
+                        <ul>
+                            <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                            <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                            <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                            <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                            <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                        </ul>
+                    </div>
+                    <div class="skill_content">
+                        <h3>CSS3</h3>
+                        <ul>
+                            <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                            <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                            <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                            <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                        </ul>
+                    </div>
+                    <div class="skill_content">
+                        <h3>React</h3>
+                        <ul>
+                            <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                            <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                        </ul>
+                    </div>
+                    <div class="skill_content">
+                        <h3>SASS</h3>
+                        <ul>
+                            <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                            <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                        </ul>
+                    </div>
+                    <div class="skill_content">
+                        <h3>Bootstrap</h3>
+                        <ul>
+                            <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                            <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                            <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                            <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                            <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                        </ul>
+                    </div>
+                    <div class="skill_content">
+                        <h3>Node.js</h3>
+                        <ul>
+                            <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                            <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                            <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="funfacts">
+                    <h2><i class="fa-solid fa-heart"></i>BÔNUS</h2>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-mug-hot"></i>
+                            <span>3</span>
+                            <p>Xícaras de café por dia</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-medal"></i>
+                            <span>0</span>
+                            <p>Medalhas</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-user"></i>
+                            <span>0</span>
+                            <p>Clientes</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-users"></i>
+                            <span>112</span>
+                            <p>Conexões no LinkedIn</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <section class="sobre_info" id="contato">
+            <h3>Entre em contato comigo</h3>
+            <div class="networks">
+                <p><a href="#"><i class="fa-brands fa-instagram"></i></a></p>
+                <p><a href="https://www.linkedin.com/bruno-dayron" target="_blank"><i class="fa-brands fa-linkedin"></i></a></p>
+                <p><a href="https://github.com/DayronTi/" target="_blank"><i class="fa-brands fa-github"></i></a></p>
+                <p><a href="#"><i class="fa-solid fa-envelope"></i></a></p>
+                <p><a href="#"><i class="fa-brands fa-whatsapp"></i></a></p>
+            </div>
+        </section>
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
