@@ -17,15 +17,11 @@ function ativaLetra(elemento) {
     });
 }
 
-
 const titulo = document.querySelector(".digitando");
-
 ativaLetra(titulo)
-
 function menuShow() {
     const menuMobile = document.querySelector('.mobile_menu');
     const icon = document.querySelector('.fa-solid','.fa-bars');
-
     if (menuMobile.classList.contains('open')) {
         menuMobile.classList.remove('open');
         icon.classList.remove('fa-solid','fa-xmark')
@@ -35,7 +31,6 @@ function menuShow() {
         icon.classList.add('fa-solid','fa-xmark');
     }
 }
-
 
 function sobreMim() {
     // Selecionar elementos DOM uma única vez

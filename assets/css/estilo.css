@@ -28,7 +28,6 @@ body {
 }
 
 /* HEADER  */
-
 header {
     background-color: var(--cor-primaria);
     display: flex;
@@ -45,7 +44,6 @@ header.rolagem {
     width: 100%;
     z-index: 1000;
     background-color: #fff;
-
 }
 
 header:hover{
@@ -90,7 +88,6 @@ header .navegacaoPrimaria li a:hover {
 }
 
 /*      MAIN     */
-
 main .sessao1 {
     animation: inicializar .7s forwards;
     background-color: var(--cor-primaria);
@@ -103,10 +100,10 @@ main .sessao1 {
 }
 
 main .sessao1 div {
-    margin-top: 60%;
+    margin-top: 50%;
     align-self: start;
     display: grid;
-    margin-bottom: 40px;
+    margin-bottom: 6%;
 }
 
 main .sessao1 div h2 {
@@ -117,12 +114,11 @@ main .sessao1 div h2 {
 
 main .sessao1 .digitando {
     margin-top: 5px;
-    font-size: 4rem;
+    font-size: 5rem;
     margin-bottom: 20px;   
 }
 
 /*      EFEITO DE DIGITAR     */
-
 .digitando::after {
     content: '|';
     margin-left: 5px;
@@ -131,7 +127,7 @@ main .sessao1 .digitando {
 }
 
 main .sessao1 div p {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color: var(--cor-terciaria);
 }
 
@@ -145,7 +141,7 @@ main .sessao1 div button {
     background-color: var(--cor-terciaria);
     font-family: var(--font-secundaria);
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 10px;
     margin-bottom: 30%;
 }
@@ -155,13 +151,12 @@ main .sessao1 div button:hover {
     border: 1px solid var(--cor-secundaria);
 }
 
+
 main .sessao1 img {
     width: 600px;
-    
 }
 
 /* Função chamada Pisca */
-
 @keyframes pisca { 
     from {
         opacity: 1;
@@ -217,7 +212,7 @@ main {
 
 .sobre_titulo p {
     color: #707070;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     margin-bottom: 1rem;
     position: relative;
 }
@@ -281,7 +276,7 @@ article .sobre_texto {
 }
 
 .sobre_texto p {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     grid-row: 2;
     grid-column: 1/-1;
     padding: 30px;
@@ -648,8 +643,6 @@ article .sobre_texto {
 }
 
 /*  INICIANDO O FOOTER  '*/
-
-
 .sobre_info {
     height: 400px;
     background-color: var(--cor-background);
@@ -709,7 +702,6 @@ article .sobre_texto {
     }
 
     .sessao1 {
-        margin-top: 50px;
         background-image: url("./assets/imagens/MinhaLogo.png");
         background-repeat: no-repeat;
         background-size: 500px;
